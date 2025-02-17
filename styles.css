@@ -1,14 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: #E7E8D1; /* Soft pastel cream background */
+    background: #E7E8D1;
     margin: 0;
     padding: 20px;
     text-align: center;
-    color: #B85042; /* Rich coral red text for contrast */
+    color: #B85042;
 }
 
 h1 {
-    color: #B85042; /* Coral red heading */
+    color: #B85042;
     text-align: center;
     margin-bottom: 20px;
     font-size: 36px;
@@ -19,7 +19,7 @@ h1 {
 .tab {
     display: flex;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.3); /* Light transparent background */
+    background: rgba(255, 255, 255, 0.3);
     padding: 10px;
     border-radius: 50px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -27,22 +27,23 @@ h1 {
 
 .tab button {
     background: none;
-    border: 2px solid #B85042; /* Coral red border for buttons */
+    border: 2px solid #B85042;
     outline: none;
     cursor: pointer;
     padding: 12px 20px;
     transition: 0.3s;
     font-size: 16px;
     font-weight: bold;
-    color: #B85042; /* Coral red text for buttons */
+    color: #B85042;
     text-transform: uppercase;
     letter-spacing: 1px;
     border-radius: 25px;
+    margin: 0 2px;
 }
 
 .tab button:hover, .tab button.active {
-    background: #B85042; /* Coral red background for active/hover buttons */
-    color: #E7E8D1; /* Soft cream text for contrast */
+    background: #B85042;
+    color: #E7E8D1;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -51,11 +52,11 @@ h1 {
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
-    background: rgba(167, 190, 174, 0.8); /* Soft green background with slight transparency */
+    background: rgba(167, 190, 174, 0.8);
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: left;
-    color: #B85042; /* Coral red text for content */
+    color: #B85042;
 }
 
 .tabcontent.active {
@@ -63,7 +64,7 @@ h1 {
 }
 
 h3 {
-    color: #B85042; /* Coral red for section headings */
+    color: #B85042;
     border-bottom: 2px solid #B85042;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -75,7 +76,7 @@ ul {
 }
 
 li {
-    background: rgba(255, 255, 255, 0.6); /* Light white background for list items */
+    background: rgba(255, 255, 255, 0.6);
     margin: 10px 0;
     padding: 15px;
     border-radius: 10px;
@@ -85,5 +86,5 @@ li {
 
 li:hover {
     transform: scale(1.05);
-    background: rgba(255, 255, 255, 0.8); /* Slightly lighter hover effect */
+    background: rgba(255, 255, 255, 0.8);
 }
