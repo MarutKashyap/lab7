@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<musicLibrary>
+    <category language="Hindi">
+        <song>
+            <details><![CDATA[Movie: Kabir Singh, Actor: Shahid Kapoor, Actress: Kiara Advani, Singer: Arijit Singh, Lyricist: Irshad Kamil, Year: 2019, Rating: 4.5]]></details>
+        </song>
+        <song>
+            <details><![CDATA[Movie: Ae Dil Hai Mushkil, Actor: Ranbir Kapoor, Actress: Anushka Sharma, Singer: Arijit Singh, Lyricist: Amitabh Bhattacharya, Year: 2016, Rating: 4.7]]></details>
+        </song>
+        <song>
+            <details><![CDATA[Movie: Tera Naam, Actor: Salman Khan, Actress: Bhumika Chawla, Singer: Udit Narayan, Lyricist: Sameer, Year: 2003, Rating: 4.3]]></details>
+        </song>
+    </category>
+    <category language="Tamil">
+        <song>
+            <details><![CDATA[Movie: 3, Actor: Dhanush, Actress: Shruti Haasan, Singer: Anirudh Ravichander, Lyricist: Dhanush, Year: 2012, Rating: 4.8]]></details>
+        </song>
+        <song>
+            <details><![CDATA[Movie: Mersal, Actor: Vijay, Actress: Samantha, Singer: A.R. Rahman, Lyricist: Vivek, Year: 2017, Rating: 4.6]]></details>
+        </song>
+        <song>
+            <details><![CDATA[Movie: Roja, Actor: Arvind Swamy, Actress: Madhoo, Singer: Hariharan, Lyricist: Vairamuthu, Year: 1992, Rating: 4.9]]></details>
+        </song>
+    </category>
+    <category language="Telugu">
+        <song>
+            <details><![CDATA[Movie: Ala Vaikunthapurramuloo, Actor: Allu Arjun, Actress: Pooja Hegde, Singer: Sid Sriram, Lyricist: Sirivennela Seetharama Sastry, Year: 2020, Rating: 4.7]]></details>
+        </song>
+        <song>
+            <details><![CDATA[Movie: Arjun Reddy, Actor: Vijay Deverakonda, Actress: Shalini Pandey, Singer: Anurag Kulkarni, Lyricist: Shreshta, Year: 2017, Rating: 4.5]]></details>
+        </song>
+        <song>
+            <details><![CDATA[Movie: Baahubali, Actor: Prabhas, Actress: Anushka Shetty, Singer: Kailash Kher, Lyricist: Madhan Karky, Year: 2015, Rating: 4.9]]></details>
+        </song>
+    </category>
+    <category language="Kannada">
+        <song>
+            <details><![CDATA[Movie: KGF, Actor: Yash, Actress: Srinidhi Shetty, Singer: Ananya Bhat, Lyricist: Ravi Basrur, Year: 2018, Rating: 4.8]]></details>
+        </song>
+        <song>
+            <details><![CDATA[Movie: Ugramm, Actor: Sriimurali, Actress: Haripriya, Singer: Vijay Prakash, Lyricist: Chethan Kumar, Year: 2014, Rating: 4.6]]></details>
+        </song>
+        <song>
+            <details><![CDATA[Movie: Kirik Party, Actor: Rakshit Shetty, Actress: Rashmika Mandanna, Singer: B. Ajaneesh Loknath, Lyricist: Yogaraj Bhat, Year: 2016, Rating: 4.7]]></details>
+        </song>
+    </category>
+    <category language="Malayalam">
+        <song>
+            <details><![CDATA[Movie: Premam, Actor: Nivin Pauly, Actress: Sai Pallavi, Singer: Vijay Yesudas, Lyricist: Shabareesh Varma, Year: 2015, Rating: 4.8]]></details>
+        </song>
+        <song>
+            <details><![CDATA[Movie: Bangalore Days, Actor: Dulquer Salmaan, Actress: Nazriya Nazim, Singer: Haricharan, Lyricist: Rafeeq Ahammed, Year: 2014, Rating: 4.6]]></details>
+        </song>
+        <song>
+            <details><![CDATA[Movie: Drishyam, Actor: Mohanlal, Actress: Meena, Singer: K.J. Yesudas, Lyricist: Rafeeq Ahammed, Year: 2013, Rating: 4.9]]></details>
+        </song>
+    </category>
+</musicLibrary>

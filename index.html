@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Hit Songs Library</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        function loadXML() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "songs.xml", true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    displaySongs(xhr.responseXML);
+                }
+            };
+            xhr.send();
+        }
+
+        function displaySongs(xml) {
+            var categories = xml.getElementsByTagName("category");
+            var tabs = document.getElementById("tabs");
+            var content = document.getElementById("tabContent");
+            
+            for (var i = 0; i < categories.length; i++) {
+                var language = categories[i].getAttribute("language");
+                var button = document.createElement("button");
+                button.textContent = language;
+                button.setAttribute("onclick", "openTab(event, 'tab" + i + "')");
+                tabs.appendChild(button);
+                
+                var div = document.createElement("div");
+                div.id = "tab" + i;
+                div.className = "tabcontent";
+                
+                var songs = categories[i].getElementsByTagName("song");
+                var output = "<h3>" + language + " Songs</h3><ul>";
+                
+                for (var j = 0; j < songs.length; j++) {
+                    var details = songs[j].getElementsByTagName("details")[0].textContent;
+                    output += "<li>" + details + "</li>";
+                }
+                output += "</ul>";
+                div.innerHTML = output;
+                content.appendChild(div);
+            }
+            document.querySelector(".tab button").classList.add("active");
+            document.querySelector(".tabcontent").classList.add("active");
+        }
+
+        function openTab(evt, tabId) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab")[0].getElementsByTagName("button");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            document.getElementById(tabId).style.display = "block";
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+</head>
+<body onload="loadXML()">
+    <h1>Top Hit Songs Library</h1>
+    <div class="tab" id="tabs"></div>
+    <div id="tabContent"></div>
+</body>
+</html>
