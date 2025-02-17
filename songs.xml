@@ -2,57 +2,147 @@
 <musicLibrary>
     <category language="Hindi">
         <song>
-            <details><![CDATA[Movie: Kabir Singh, Actor: Shahid Kapoor, Actress: Kiara Advani, Singer: Arijit Singh, Lyricist: Irshad Kamil, Year: 2019, Rating: 4.5]]></details>
+            <movie>Kabir Singh</movie>
+            <actor>Shahid Kapoor</actor>
+            <actress>Kiara Advani</actress>
+            <singer>Arijit Singh</singer>
+            <lyricist>Irshad Kamil</lyricist>
+            <year>2019</year>
+            <rating>4.5</rating>
         </song>
         <song>
-            <details><![CDATA[Movie: Ae Dil Hai Mushkil, Actor: Ranbir Kapoor, Actress: Anushka Sharma, Singer: Arijit Singh, Lyricist: Amitabh Bhattacharya, Year: 2016, Rating: 4.7]]></details>
+            <movie>Ae Dil Hai Mushkil</movie>
+            <actor>Ranbir Kapoor</actor>
+            <actress>Anushka Sharma</actress>
+            <singer>Arijit Singh</singer>
+            <lyricist>Amitabh Bhattacharya</lyricist>
+            <year>2016</year>
+            <rating>4.7</rating>
         </song>
         <song>
-            <details><![CDATA[Movie: Tera Naam, Actor: Salman Khan, Actress: Bhumika Chawla, Singer: Udit Narayan, Lyricist: Sameer, Year: 2003, Rating: 4.3]]></details>
+            <movie>Tera Naam</movie>
+            <actor>Salman Khan</actor>
+            <actress>Bhumika Chawla</actress>
+            <singer>Udit Narayan</singer>
+            <lyricist>Sameer</lyricist>
+            <year>2003</year>
+            <rating>4.3</rating>
         </song>
     </category>
     <category language="Tamil">
         <song>
-            <details><![CDATA[Movie: 3, Actor: Dhanush, Actress: Shruti Haasan, Singer: Anirudh Ravichander, Lyricist: Dhanush, Year: 2012, Rating: 4.8]]></details>
+            <movie>3</movie>
+            <actor>Dhanush</actor>
+            <actress>Shruti Haasan</actress>
+            <singer>Anirudh Ravichander</singer>
+            <lyricist>Dhanush</lyricist>
+            <year>2012</year>
+            <rating>4.8</rating>
         </song>
         <song>
-            <details><![CDATA[Movie: Mersal, Actor: Vijay, Actress: Samantha, Singer: A.R. Rahman, Lyricist: Vivek, Year: 2017, Rating: 4.6]]></details>
+            <movie>Mersal</movie>
+            <actor>Vijay</actor>
+            <actress>Samantha</actress>
+            <singer>A.R. Rahman</singer>
+            <lyricist>Vivek</lyricist>
+            <year>2017</year>
+            <rating>4.6</rating>
         </song>
         <song>
-            <details><![CDATA[Movie: Roja, Actor: Arvind Swamy, Actress: Madhoo, Singer: Hariharan, Lyricist: Vairamuthu, Year: 1992, Rating: 4.9]]></details>
+            <movie>Roja</movie>
+            <actor>Arvind Swamy</actor>
+            <actress>Madhoo</actress>
+            <singer>Hariharan</singer>
+            <lyricist>Vairamuthu</lyricist>
+            <year>1992</year>
+            <rating>4.9</rating>
         </song>
     </category>
     <category language="Telugu">
         <song>
-            <details><![CDATA[Movie: Ala Vaikunthapurramuloo, Actor: Allu Arjun, Actress: Pooja Hegde, Singer: Sid Sriram, Lyricist: Sirivennela Seetharama Sastry, Year: 2020, Rating: 4.7]]></details>
+            <movie>Ala Vaikunthapurramuloo</movie>
+            <actor>Allu Arjun</actor>
+            <actress>Pooja Hegde</actress>
+            <singer>Sid Sriram</singer>
+            <lyricist>Sirivennela Seetharama Sastry</lyricist>
+            <year>2020</year>
+            <rating>4.7</rating>
         </song>
         <song>
-            <details><![CDATA[Movie: Arjun Reddy, Actor: Vijay Deverakonda, Actress: Shalini Pandey, Singer: Anurag Kulkarni, Lyricist: Shreshta, Year: 2017, Rating: 4.5]]></details>
+            <movie>Arjun Reddy</movie>
+            <actor>Vijay Deverakonda</actor>
+            <actress>Shalini Pandey</actress>
+            <singer>Anurag Kulkarni</singer>
+            <lyricist>Shreshta</lyricist>
+            <year>2017</year>
+            <rating>4.5</rating>
         </song>
         <song>
-            <details><![CDATA[Movie: Baahubali, Actor: Prabhas, Actress: Anushka Shetty, Singer: Kailash Kher, Lyricist: Madhan Karky, Year: 2015, Rating: 4.9]]></details>
+            <movie>Baahubali</movie>
+            <actor>Prabhas</actor>
+            <actress>Anushka Shetty</actress>
+            <singer>Kailash Kher</singer>
+            <lyricist>Madhan Karky</lyricist>
+            <year>2015</year>
+            <rating>4.9</rating>
         </song>
     </category>
     <category language="Kannada">
         <song>
-            <details><![CDATA[Movie: KGF, Actor: Yash, Actress: Srinidhi Shetty, Singer: Ananya Bhat, Lyricist: Ravi Basrur, Year: 2018, Rating: 4.8]]></details>
+            <movie>KGF</movie>
+            <actor>Yash</actor>
+            <actress>Srinidhi Shetty</actress>
+            <singer>Ananya Bhat</singer>
+            <lyricist>Ravi Basrur</lyricist>
+            <year>2018</year>
+            <rating>4.8</rating>
         </song>
         <song>
-            <details><![CDATA[Movie: Ugramm, Actor: Sriimurali, Actress: Haripriya, Singer: Vijay Prakash, Lyricist: Chethan Kumar, Year: 2014, Rating: 4.6]]></details>
+            <movie>Ugramm</movie>
+            <actor>Sriimurali</actor>
+            <actress>Haripriya</actress>
+            <singer>Vijay Prakash</singer>
+            <lyricist>Chethan Kumar</lyricist>
+            <year>2014</year>
+            <rating>4.6</rating>
         </song>
         <song>
-            <details><![CDATA[Movie: Kirik Party, Actor: Rakshit Shetty, Actress: Rashmika Mandanna, Singer: B. Ajaneesh Loknath, Lyricist: Yogaraj Bhat, Year: 2016, Rating: 4.7]]></details>
+            <movie>Kirik Party</movie>
+            <actor>Rakshit Shetty</actor>
+            <actress>Rashmika Mandanna</actress>
+            <singer>B. Ajaneesh Loknath</singer>
+            <lyricist>Yogaraj Bhat</lyricist>
+            <year>2016</year>
+            <rating>4.7</rating>
         </song>
     </category>
     <category language="Malayalam">
         <song>
-            <details><![CDATA[Movie: Premam, Actor: Nivin Pauly, Actress: Sai Pallavi, Singer: Vijay Yesudas, Lyricist: Shabareesh Varma, Year: 2015, Rating: 4.8]]></details>
+            <movie>Premam</movie>
+            <actor>Nivin Pauly</actor>
+            <actress>Sai Pallavi</actress>
+            <singer>Vijay Yesudas</singer>
+            <lyricist>Shabareesh Varma</lyricist>
+            <year>2015</year>
+            <rating>4.8</rating>
         </song>
         <song>
-            <details><![CDATA[Movie: Bangalore Days, Actor: Dulquer Salmaan, Actress: Nazriya Nazim, Singer: Haricharan, Lyricist: Rafeeq Ahammed, Year: 2014, Rating: 4.6]]></details>
+            <movie>Bangalore Days</movie>
+            <actor>Dulquer Salmaan</actor>
+            <actress>Nazriya Nazim</actress>
+            <singer>Haricharan</singer>
+            <lyricist>Rafeeq Ahammed</lyricist>
+            <year>2014</year>
+            <rating>4.6</rating>
         </song>
         <song>
-            <details><![CDATA[Movie: Drishyam, Actor: Mohanlal, Actress: Meena, Singer: K.J. Yesudas, Lyricist: Rafeeq Ahammed, Year: 2013, Rating: 4.9]]></details>
+            <movie>Drishyam</movie>
+            <actor>Mohanlal</actor>
+            <actress>Meena</actress>
+            <singer>K.J. Yesudas</singer>
+            <lyricist>Rafeeq Ahammed</lyricist>
+            <year>2013</year>
+            <rating>4.9</rating>
         </song>
     </category>
 </musicLibrary>
