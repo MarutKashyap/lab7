@@ -35,8 +35,15 @@
                 var output = "<h3>" + language + " Songs</h3><ul>";
                 
                 for (var j = 0; j < songs.length; j++) {
-                    var details = songs[j].getElementsByTagName("details")[0].textContent;
-                    output += "<li>" + details + "</li>";
+                    var movie = songs[j].getElementsByTagName("movie")[0].textContent;
+                    var actor = songs[j].getElementsByTagName("actor")[0].textContent;
+                    var actress = songs[j].getElementsByTagName("actress")[0].textContent;
+                    var singer = songs[j].getElementsByTagName("singer")[0].textContent;
+                    var lyricist = songs[j].getElementsByTagName("lyricist")[0].textContent;
+                    var year = songs[j].getElementsByTagName("year")[0].textContent;
+                    var rating = songs[j].getElementsByTagName("rating")[0].textContent;
+                    
+                    output += "<li><strong>Movie:</strong> " + movie + ", <strong>Actor:</strong> " + actor + ", <strong>Actress:</strong> " + actress + ", <strong>Singer:</strong> " + singer + ", <strong>Lyricist:</strong> " + lyricist + ", <strong>Year:</strong> " + year + ", <strong>Rating:</strong> " + rating + "</li>";
                 }
                 output += "</ul>";
                 div.innerHTML = output;
